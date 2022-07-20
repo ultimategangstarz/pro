@@ -5,5 +5,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Serif', serif;
+   }
+
+   p{
     color: #ffffff;
    }
+
+   b{
+    color: #ffffff;
+   }
+
+   header{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+i{
+    color: #ffffff;
+}
+
+span{
+    color: #ffffff;
+}
+
+body{
+    
+    background-image: url(https://media.discordapp.net/attachments/945951090027933699/998049419884769320/177050_2.gif);
+  }
