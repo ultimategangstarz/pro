@@ -19,6 +19,7 @@
     text-align: center;
     color: #ffffff;
     font-weight: bold;
+    font-size: xx-large;
 }
 
 i{
@@ -32,4 +33,10 @@ span{
 body{
     
     background-image: url(https://media.discordapp.net/attachments/945951090027933699/998049419884769320/177050_2.gif);
+  }
+
+  .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
