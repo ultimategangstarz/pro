@@ -49,12 +49,22 @@ body{
 }
 
 .right {
+    margin: auto;
     right: 5px;
     width: 250px;
     padding-top: 50px;
     font-size: x-large;
   }
 
+
+
+  .left {
+    left: 5px;
+    width: 1150px;
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: x-large;
+  }
 
 
 #meetbutton{
