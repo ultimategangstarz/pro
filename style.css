@@ -49,7 +49,6 @@ body{
 }
 
 .right {
-    margin: auto;
     right: 5px;
     width: 250px;
     padding-top: 50px;
@@ -66,12 +65,10 @@ body{
     font-size: x-large;
   }
 
-
-#meetbutton{
-    display: flex;
-    align-items: right;
-    justify-content: right;
+.selectedbutton{
+    color: #aaaaaa
 }
+
 
 /* unvisited link */
 a:link {
