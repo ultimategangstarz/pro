@@ -48,8 +48,39 @@ body{
     justify-content: left;
 }
 
+.right {
+    right: 5px;
+    width: 250px;
+    padding-top: 50px;
+    font-size: x-large;
+  }
+
+
+
 #meetbutton{
     display: flex;
     align-items: right;
     justify-content: right;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: gray;
+  }
+
+
