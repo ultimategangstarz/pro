@@ -84,7 +84,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5000px;
+    margin-top: 5000px;
 }
 
 /* unvisited link */
