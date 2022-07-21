@@ -72,6 +72,12 @@ body{
     font-size: x-large;
   }
 
+  .center {
+    text-align: center;
+  }
+
+
+
 .selectedbutton{
     color: #aaaaaa
 }
