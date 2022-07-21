@@ -8,6 +8,7 @@
 }
 
 p{
+    text-indent: 4%;
     color: #ffffff;
 }
 
@@ -70,6 +71,12 @@ body{
     color: #aaaaaa
 }
 
+#horse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5000px;
+}
 
 /* unvisited link */
 a:link {
