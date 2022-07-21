@@ -71,6 +71,10 @@ body{
     color: #aaaaaa
 }
 
+hr{
+    margin-bottom: 2%;
+}
+
 #horse{
     display: flex;
     align-items: center;
