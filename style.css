@@ -8,8 +8,11 @@
 }
 
 p{
-    text-indent: 75px;
     color: #ffffff;
+}
+
+.indented{
+    text-indent: 75px;
 }
 
 b{
@@ -30,6 +33,8 @@ i{
 span{
     color: #ffffff;
 }
+
+
 
 body{
     
@@ -52,7 +57,7 @@ body{
 .right {
     right: 5px;
     width: 250px;
-    padding-top: 50px;
+    padding-top: 45px;
     font-size: x-large;
   }
 
