@@ -94,6 +94,14 @@ hr{
     margin-top: 5000px;
 }
 
+#chess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+
 /* unvisited link */
 a:link {
     color: white;
