@@ -1,0 +1,156 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+p{
+    color: #ffffff;
+}
+
+.indented{
+    text-indent: 75px;
+}
+
+b{
+    color: #ffffff;
+}
+
+header{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+i{
+    color: #ffffff;
+}
+
+span{
+    color: #ffffff;
+}
+
+
+
+body{
+
+    background-image: url(https://raw.githubusercontent.com/ultimategangstarz/pro/main/images/stars.gif);
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerbanner{
+    margin: 2vh;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.right {
+    right: 40;
+    width: 250px;
+    padding-top: 45px;
+    font-size: x-large;
+  }
+
+
+  .left {
+    left: 5px;
+    width: 550;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: x-large;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+
+
+.selectedbutton{
+    color: #aaaaaa
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+iframe {
+  overflow: hidden;
+  width: 1350px;
+  height: 1100px;
+  display: block;
+  border-style:none;
+  align-items: center;
+  justify-content: center;
+}
+
+#horse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5000px;
+}
+
+#chess{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 250;
+  border: none;
+}
+
+#actualchess{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 520;
+  border: none;
+}
+
+
+
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: gray;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .row::after {
+    clear: both;
+    display: table;
+  }
