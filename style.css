@@ -49,7 +49,6 @@ body{
 }
 
 #headerbanner{
-    margin: 2vh;
     display: flex;
     align-items: left;
     justify-content: left;
