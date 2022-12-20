@@ -36,13 +36,17 @@ span{
 }
 
 body{
-  background-image: url(/images/stars2.gif);
+  background-image: var(--main-background-gif);
+}
+
+label{
+  color: #ffffff;
 }
 
 
 .container{
   position: relative;
-  background-image: url(/images/stars.gif);
+  background-image: var(--center-background-gif);
   margin-left: 24vw;
   padding-left: 1vh;
   margin-right: 24vw;
@@ -51,7 +55,7 @@ body{
   box-shadow: inset -2px 0px 0px 0px rgb(255, 255, 255), 
   inset 2px 0px 0px 0px rgb(255, 255, 255), 
   inset 0px -2px 0px 0px rgb(255, 255, 255), 
-  00px 0px 15px 15px rgba(74, 90, 115, .8); 
+  00px 0px 15px 15px var(--theme-color); 
 }
 
 .image{
@@ -62,7 +66,7 @@ body{
 
 #headerbanner{
   position: relative;
-  background: linear-gradient(#000000, 80%, /*#51009c*/ #4a5a73);
+  background: linear-gradient(#000000, 80%, var(--theme-color) /*#51009c*/);
     display: flex;
     align-items: left;
     justify-content: left;
@@ -70,6 +74,7 @@ body{
 }
 #gangstarbanner{
   z-index: 2;
+  filter: drop-shadow(2px 2px 0px rgb(0, 0, 0));
  /* margin-left: 24vw;*/
 }
 #headerbuttons{
@@ -77,7 +82,7 @@ body{
   display: flex;
   align-items: right;
   justify-content: right;
-  background-image: url(/images/stars2.gif);
+  background-image: var(--main-background-gif);
   box-shadow: 0px 20px 15px 2px rgba(0,0,0, .8);
   z-index: 1;
 }
