@@ -68,8 +68,8 @@ label{
   position: relative;
   background: linear-gradient(#000000, 80%, var(--theme-color) /*#51009c*/);
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     z-index: 1;
 }
 #gangstarbanner{
