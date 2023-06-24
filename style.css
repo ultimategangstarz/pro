@@ -161,8 +161,34 @@ iframe {
   border: none;
 }
 
+.wikiphoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  outline: #ffffff;
+  outline-style: double;
+}
 
+.wikiphotowrapper{
+  background-color: #000000;
+  outline: #ffffff;
+  outline-style: double;
+  margin-left: auto;
+}
 
+.wikifigure{
+  background-color: #000000;
+  margin-left: auto;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+figcaption{
+  text-align: right;
+  padding: 8px;
+}
 
 /* unvisited link */
 a:link {
