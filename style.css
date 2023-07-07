@@ -58,6 +58,10 @@ label{
   color: #ffffff;
 }
 
+.emphasis, a.emphasis:link, a.emphasis:visited, a.emphasis:hover{
+  color: #ff0000;
+}
+
 
 .container{
   position: relative;
