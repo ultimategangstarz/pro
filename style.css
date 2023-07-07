@@ -15,7 +15,19 @@ p{
 }
 
 .indented{
-    text-indent: 75px;
+    text-indent: 35px;
+}
+
+.dualcolumn{
+  text-indent: 35px;
+  column-count: 2;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.upsidedown{
+  transform: scale(-1, -1);
+  display: inline-block;
 }
 
 b{
