@@ -10,6 +10,8 @@
 
 p{
     color: #ffffff;
+    text-align-last: center;
+    text-shadow: 0 0 2px #000000;
 }
 
 .indented{
@@ -25,6 +27,7 @@ header{
     color: #ffffff;
     font-weight: bold;
     font-size: xx-large;
+    text-shadow: 0 0 2px #000000;
 }
 
 i{
@@ -48,9 +51,9 @@ label{
   position: relative;
   background-image: var(--center-background-gif);
   margin-left: 24vw;
-  padding-left: 1vh;
+  padding-left: 2vh;
   margin-right: 24vw;
-  padding-right: 1vh;
+  padding-right: 2vh;
   padding-bottom: 4vh;
   box-shadow: inset -2px 0px 0px 0px rgb(255, 255, 255), 
   inset 2px 0px 0px 0px rgb(255, 255, 255), 
@@ -182,11 +185,37 @@ iframe {
   margin-left: auto;
   content: "";
   clear: both;
-  display: table;
+  display: inline-block;
+  float: right;
 }
 
+.leftphoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  outline: #ffffff;
+  outline-style: double;
+}
+
+.leftphotowrapper{
+  background-color: #000000;
+  outline: #ffffff;
+  outline-style: double;
+  margin-right: auto;
+}
+
+.leftfigure{
+  background-color: #000000;
+  margin-right: auto;
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+
+
 figcaption{
-  text-align: right;
+  text-align: center;
   padding: 8px;
 }
 
