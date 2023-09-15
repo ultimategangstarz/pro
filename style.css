@@ -10,10 +10,24 @@
 
 p{
     color: #ffffff;
+    text-align-last: center;
+    text-shadow: 0 0 2px #000000;
 }
 
 .indented{
-    text-indent: 75px;
+    text-indent: 35px;
+}
+
+.dualcolumn{
+  text-indent: 35px;
+  column-count: 2;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.upsidedown{
+  transform: scale(-1, -1);
+  display: inline-block;
 }
 
 b{
@@ -25,6 +39,7 @@ header{
     color: #ffffff;
     font-weight: bold;
     font-size: xx-large;
+    text-shadow: 0 0 2px #000000;
 }
 
 i{
@@ -43,14 +58,22 @@ label{
   color: #ffffff;
 }
 
+.emphasis, a.emphasis:link, a.emphasis:visited, a.emphasis:hover{
+  color: #ff0000;
+}
+
+.blueemphasis, a.blueemphasis:link, a.blueemphasis:visited, a.blueemphasis:hover{
+  color: #0084ff;
+}
+
 
 .container{
   position: relative;
   background-image: var(--center-background-gif);
   margin-left: 24vw;
-  padding-left: 1vh;
+  padding-left: 2vh;
   margin-right: 24vw;
-  padding-right: 1vh;
+  padding-right: 2vh;
   padding-bottom: 4vh;
   box-shadow: inset -2px 0px 0px 0px rgb(255, 255, 255), 
   inset 2px 0px 0px 0px rgb(255, 255, 255), 
@@ -113,7 +136,6 @@ label{
   }
 
 
-
 .selectedbutton{
     color: #aaaaaa
 }
@@ -161,8 +183,60 @@ iframe {
   border: none;
 }
 
+.wikiphoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  outline: #ffffff;
+  outline-style: double;
+}
+
+.wikiphotowrapper{
+  background-color: #000000;
+  outline: #ffffff;
+  outline-style: double;
+  margin-left: auto;
+}
+
+.wikifigure{
+  background-color: #000000;
+  margin-left: auto;
+  content: "";
+  clear: both;
+  display: inline-block;
+  float: right;
+}
+
+.leftphoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  outline: #ffffff;
+  outline-style: double;
+}
+
+.leftphotowrapper{
+  background-color: #000000;
+  outline: #ffffff;
+  outline-style: double;
+  margin-right: auto;
+}
+
+.leftfigure{
+  background-color: #000000;
+  margin-right: auto;
+  content: "";
+  clear: both;
+  display: inline-block;
+}
 
 
+figcaption{
+  text-align: center;
+  padding: 8px;
+}
 
 /* unvisited link */
 a:link {
