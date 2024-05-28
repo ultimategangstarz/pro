@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="ULTIMATE GANG$TARZ" property="og:title" />
+    <meta content="ultimategangstarz.pro - Crazy & High Tension Gaming, Since 2018" property="og:description" />
+    <meta content="https://ultimategangstarz.pro/" property="og:url" />
+    <meta content="/images/ugs_small" property="og:image" />
+    <meta content="#000000" data-react-helmet="true" name="theme-color" />
+    <link rel="stylesheet" id="themeStylesheetLink" href="/themes/blue.css">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="/images/favicon.png">
+    <script src="/theme.js"></script>
+    <title>UG$ DEVELOPMENT</title>
+</head>
+<div>
+  <header id="headerbanner">
+    <a href="/"><img id="gangstarbanner" src="/images/gangstarz_banner.png" alt="ULTIMATE GANG$TARZ Banner with Text saying ULTIMATE GANG$TARZ"></a>
+  </header>
+  <hr>
+  <header id="headerbuttons">
+    <div class="right">
+      <a href="/">Home</a>
+      </div>
+      <div class="right">
+        <a href="/members">Meet the Members</a>
+      </div>
+      <div class="right">
+        <a href="/forums">Forums</a>
+      </div>
+          <div class="right">
+          <a href="/business">Business & Legal</a>
+        </div>
+        <div class="right" id="lastbutton">
+          <a href="/settings">Settings</a>
+        </div>
+    </header>
+<hr>
+<body>
+  <div class="container">
+  <br>
+  <header>UG$ DEVELOPMENT</header>
+<p>
+ Welcome to your one-stop shop for everything to do with the ULTIMATE GANG$TARZ' development side.
+</p> <br>
+<header>WHY WE DEVELOP</header>
+<p class="indented">At the ULTIMATE GANG$TARZ, we make projects from passion. Our drive is our own creativity and willpower.
+  Everything started around September of 2020, with the establishment of imagiNation, a game development studio headed by me (aobunau), Translunary, and kituato,
+  who is no longer affiliated with us. We wanted to breathe new life into the Roblox games we played and loved as kids, while also bringing new experiences to the table.
+  Around the same time we established imagiNation, we started a project to revive an old FNAF fan roleplay game from 2015, named Five Shifts at Tom's. We poured hours into shaping the environments and lighting and making
+  everything come alive... but, in the end, nothing ever came of it. A couple people showed some minor interest in the game, but it simply was not meant to be.
+  Honestly, the game does NOT hold up in the modern day (and you'll probably realize what I mean if you play it), and there are a million things that could have been done better,
+  but that is all irrelevant now. What Five Shifts at Tom's: Reimagined did was give us a taste of the joy and pride of having created something. The accomplishment of looking back at everything you've made.
+  That is why we develop. Not for the money. But for making something we, and other people, can enjoy. For creating a community where like-minded people can come together.
+
+</p> <br>
+<header>COMMUNITY CONTRIBUTIONS</header>
+<p class="indented">Our team consists of, at most, five people working on any given game at any time. Our skill set is comparatively limited, and doing things can take time.
+  As such, we are open to contributions from our community. If you feel you have what it takes, contact us.
+
+</p> <br>
+<header>DEVELOPING LIKE A GANG$TAR</header>
+<p class="indented">This next section is to provide a consistent standard for UG$ development.
+  <header>BUILDING</header>
+<p class="indented">In UG$ games, consistency is extremely important - ESPECIALLY in the environment and world, as these are the most direct and obvious to the players of the game.
+  As such, these guidelines are <b>non-negotiable.</b> Your work will follow these guidelines, or it will be redone (or not included at all.) <br>
+  <br>1. Increment sets.
+  <br>It is <b>extremely</b> important that every build fits into the game it is going into. To avoid gaps and jarring stylistic inconsistencies, every increment you use (for resizing, positioning, and rotation)
+  must be consistent with the rest of the game. Unless otherwise decided, that set of increments is as follows: <br>
+  <br> 1 stud
+  <br> .5 studs
+  <br> .25 studs
+  <br> .125 studs
+  <br> .0625 studs
+  <br> .03125 studs
+  <br> .015625 studs <br>
+  <br> 1 stud and .5 studs should be your go-to for most work. Anything else should be limited to details, and below .0625, usage when only ABSOLUTELY necessary. <br>
+  <br>2. Usage of unions.
+  <br>Usage of unions in your work should be kept to a <b>bare minimum,</b> or, better yet, <b>not at all.</b>
+  <br>Unions are INSANELY inefficient compared to meshes, you have less control over them, can corrupt, can't handle as much detail as meshes, have to be assembled EVERY TIME the game runs, cannot be serialized and thus cannot be saved with datastores, etc.
+  <br>In ANY case where you can use a union, you can use a meshpart or regular parts instead. And you should.
+  <br>I don't understand why this has to be such a point of contention. Meshes and parts are better than unions in literally every way.
+
+</p> <br>
+<header>SCRIPTING</header>
+<p class="indented">While scripting is less important for the players, it is far more important for the developers - the people who have to read the scripts.
+  It's also not ENTIRELY unimportant for the players - poor scripting means poor performance, which means a poor experience for the players. Your scripts should follow our practices. <br>
+  <br>1. Formatting.
+  <br>While it is ultimately unimportant how your script looks while YOU are working on it, by the time you are done, it should be fully formatted and indented. This can be done easily by simply right-clicking the script and doing "format document".
+  Variables should be in camelCase, objects in explorer should be PascalCase, and variables referring to services should be abbreviated (ex. rs for RunService, ss for ServerStorage, ps for PlayerService [even though it doesn't actually have "Service" in it], etc). They should always end in "s". <br>
+  <br>2. Best practices.
+  <br>Perhaps you may think it to be trivial how you do certain things. Nothing can be further from the truth. Scripting is half of a game's performance, the other being graphics. <br>
+  <br>-Avoid usage of deprecated functions and instances at all costs. 
+  <br> While they could be EASIER to use, deprecated functions and instances are unsupported, slower, and typically clunkier. To demonstrate my point, allow me to show you this video:
+ <br> <iframe class="yotub" width="1280" height="720" src="https://www.youtube.com/embed/2vAeifYWmn0" title="Dont Use These (Roblox Even Says So!) | Roblox Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+  While wait() is limited to 30hz, task.wait() is not limited nor throttled, and thus is much faster, more precise, AND smoother. A direct upgrade. The same goes for basically everything that's deprecated. <br>
+  <br><b>-HANDLE EFFECTS ON THE FUCKING CLIENT.</b>
+  <br>It does not take ISAAC FUCKING NEWTON to figure out that running intensive graphical effects on the server isn't a good practice.
+  I genuinely do not understand why you people are so stubborn about this when it is <b>objective</b> that client-sided effects are better.
+  There is a reason literally every good Roblox game you've ever played does effects on the client. Perhaps you've noticed in Phantom Forces how ragdolls don't appear in the same spots for everyone.
+  That happens for a REASON. It's because the server, unsurprisingly, has a lot to do. Limiting the amount of things the server has to do will make the game run better.
+  There is obviously going to be less server lag when it doesn't have to replicate EVERY individual frame of a tween to EVERY client in the game. Putting the job onto the client, and thus their computer, will make the game run better overall.
+  It isn't even fucking hard to take the code that runs the tween, move it into a LocalScript, do RemoteEvent:FireAllClients(), and then change the tweened property on the server once the tween is over. Not only will it RUN better, but it will also LOOK better (smoother) as the effects won't be limited by the server's tick rate. Tweens are exceptionally performance-hungry anyway.
+</p> <br>
+
+</p> <br>
+<br> <br> <br> <br>
+<p class=center>© 2024 ULTIMATE GANG$TARZ. All rights reserved.</p>
+
+</div>
+</body>
+</html>

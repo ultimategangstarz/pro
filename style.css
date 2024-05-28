@@ -158,6 +158,19 @@ iframe {
   justify-content: center;
 }
 
+.yotub {
+  overflow: hidden;
+  width: 945;
+  height: 480px;
+  display: block;
+  border-style:none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 #horse{
     display: flex;
     align-items: center;
